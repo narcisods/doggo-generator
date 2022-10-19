@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Doglist from './components/Doglist';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<div className="App">
+			<h1>Doggo Generator</h1>
+			<h3>Click on a dog breed to meet one!</h3>
+			<Doglist />
+		</div>
+	);
+};
 
+// const handleClickEvent = () => {
+// 	callsApi().then((res) => setImageUrl());
+// };
 export default App;
