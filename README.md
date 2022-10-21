@@ -1,1 +1,1 @@
-Doggo Generator App using the dog ceo api!
+Doggo Generator App using the DOG CEO api!
