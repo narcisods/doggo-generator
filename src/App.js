@@ -11,7 +11,4 @@ const App = () => {
 	);
 };
 
-// const handleClickEvent = () => {
-// 	callsApi().then((res) => setImageUrl());
-// };
 export default App;
